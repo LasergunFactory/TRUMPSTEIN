@@ -140,7 +140,7 @@
           <main className="max-w-7xl mx-auto px-6 py-12">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
               {/* Left Column: Input and Controls */}
-              <div className="lg:col-span-5 space-y-8">
+              <div className="lg:col-span-5 space-y-6">
                 <div className="bg-zinc-900/40 border border-white/5 rounded-[2.5rem] p-8 space-y-8 shadow-2xl backdrop-blur-sm">
                   <div>
                     <div className="flex justify-between items-center mb-4">
@@ -182,6 +182,14 @@
                   >
                     {isProcessing ? "Processing..." : "Apply Redaction"}
                   </button>
+                </div>
+
+                {/* About Section */}
+                <div className="p-8 border border-white/5 rounded-[2rem] bg-zinc-900/20">
+                  <h3 className="text-[10px] font-black uppercase tracking-[0.2em] text-white/50 mb-3">About</h3>
+                  <p className="text-sm font-medium text-zinc-300 leading-relaxed italic">
+                    The TRUMPSTEIN APP gives you all the power of official redaction with none of the subpoena aftertaste.
+                  </p>
                 </div>
 
                 <div className="p-8 border border-white/5 rounded-[2rem] bg-black/40">
